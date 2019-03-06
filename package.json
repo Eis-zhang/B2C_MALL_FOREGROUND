@@ -1,0 +1,32 @@
+{
+  "name": "b2cmall_foreground",
+  "version": "1.0.0",
+  "description": "B2CMALL前端代码",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.11.1",
+    "html-loader": "^0.4.5",
+    "html-webpack-plugin": "^2.28.0",
+    "style-loader": "^0.17.0",
+    "url-loader": "^0.5.8",
+    "webpack": "^1.15.0",
+    "webpack-dev-server": "^1.16.5"
+  },
+  "scripts": {
+    "dev_win" : "set WEBPACK_ENV=dev && webpack-dev-server --inline --port 8088",
+    "dist" : "set WEBPACK_ENV=online && webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eis-zhang/B2C_MALL_FOREGROUND.git"
+  },
+  "author": "Eis-zhangyu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eis-zhang/B2C_MALL_FOREGROUND/issues"
+  },
+  "homepage": "https://github.com/Eis-zhang/B2C_MALL_FOREGROUND#readme"
+}
