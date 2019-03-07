@@ -1,0 +1,28 @@
+/*
+* @Author: Eis
+* @Date:   2019-03-07 16:56:13
+* @Last Modified by:   Eis
+* @Last Modified time: 2019-03-07 17:04:06
+*/
+.navi{
+	background: #eee;
+	height: 30px;
+	line-height: 30px;
+}
+.navi .user{
+	float: left;
+}
+.navi .user .link{
+	margin-right: 5px;
+}
+.navi .user.login{
+	display: none;
+}
+
+.navi .navi-list{
+	float: right;
+}
+.navi .navi-list .navi-item{
+	display: inline-block;
+	margin-left: 5px;
+}

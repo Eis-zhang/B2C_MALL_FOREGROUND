@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "B2CMALL前端代码",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "hogan": "^1.0.2"
+  },
   "devDependencies": {
     "css-loader": "^0.28.11",
     "extract-text-webpack-plugin": "^1.0.1",
@@ -16,8 +19,8 @@
     "webpack-dev-server": "^1.16.5"
   },
   "scripts": {
-    "dev_win" : "set WEBPACK_ENV=dev && webpack-dev-server --inline --port 8088",
-    "dist" : "set WEBPACK_ENV=online && webpack -p"
+    "dev_win": "set WEBPACK_ENV=dev && webpack-dev-server --inline --port 8088",
+    "dist": "set WEBPACK_ENV=online && webpack -p"
   },
   "repository": {
     "type": "git",

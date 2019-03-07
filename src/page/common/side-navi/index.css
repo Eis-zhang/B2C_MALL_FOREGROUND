@@ -1,0 +1,27 @@
+/*
+* @Author: Eis
+* @Date:   2019-03-07 20:14:48
+* @Last Modified by:   Eis
+* @Last Modified time: 2019-03-07 21:19:02
+*/
+/*导航主体*/
+.side-navi{
+	float: left;
+	width: 130px;
+	min-height: 100px;
+}
+.side-navi .nav-item{
+	line-height: 25px;
+	font-size: 13px;
+}
+.side-navi .nav-item .link{
+	color: #888;
+}
+.side-navi .nav-item.active .link{
+	color: #c60023;
+}
+/*内容区*/
+.content.with-navi{
+	float: left;
+	width: 950px;
+}

@@ -1,0 +1,22 @@
+/*
+* @Author: Eis
+* @Date:   2019-03-07 17:48:05
+* @Last Modified by:   Eis
+* @Last Modified time: 2019-03-07 17:51:18
+*/
+.footer{
+	padding-bottom: 10px;
+}
+.footer .links{
+	text-align: center;
+	color: #666;
+	line-height: 30px;
+}
+.footer .links .link{
+	padding: 0 10px;
+}
+.footer .copyright{
+	text-align: center;
+	color: #666;
+	line-height: 30px;
+}

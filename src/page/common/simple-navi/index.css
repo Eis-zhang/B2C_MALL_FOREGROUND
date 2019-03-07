@@ -1,0 +1,17 @@
+/*
+* @Author: Eis
+* @Date:   2019-03-07 16:40:05
+* @Last Modified by:   Eis
+* @Last Modified time: 2019-03-07 16:45:14
+*/
+.simple-navi{
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 1px solid #ddd;
+	background: #fff;
+}
+.simple-navi .logo{
+	font-size: 26px;
+	font-weight: bold;
+	color: #c60023;
+}
