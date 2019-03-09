@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <%= require('html-loader!./layout/common-head.html') %>
+        <title><%= htmlWebpackPlugin.options.title%> --- B2CMALL电商平台</title>
+    </head>
+    <body>
+        <%= require('html-loader!./layout/navi.html') %>
+        <%= require('html-loader!./layout/header.html') %>
+        <div class="crumb">
+            <div class="w">
+                <div class="crumb-con">
+                    <a class="link" href="./index.html">B2CMALL</a>
+                    <span>></span>
+                    <span class="link-text">个人中心</span>
+                </div>
+            </div>
+        </div>
+        <div class="page-wrap w">
+            <%= require('html-loader!./layout/side-navi.html') %>
+            <div class="content with-navi">
+                <div class="panel">
+                    <div class="panel-title">个人中心</div>
+                    <div class="panel-body">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <%= require('html-loader!./layout/footer.html') %>
+    </body>
+</html>

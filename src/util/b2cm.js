@@ -2,7 +2,7 @@
 * @Author: Eis
 * @Date:   2019-03-06 19:33:50
 * @Last Modified by:   Eis
-* @Last Modified time: 2019-03-07 15:07:39
+* @Last Modified time: 2019-03-09 14:18:08
 */
 'use strict'
 
@@ -41,7 +41,7 @@ var _b2cm = {
 	},
 	//统一登录处理
 	doLogin : function(){
-		window.location.href = './login.html?redirect=' + encodeURIComponent(window.location.href);
+		window.location.href = './user-login.html?redirect=' + encodeURIComponent(window.location.href);
 	},
 	goHome : function(){
 		window.location.href = './index.html';

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <%= require('html-loader!./layout/common-head.html') %>
+        <title><%= htmlWebpackPlugin.options.title%> --- B2CMALL电商平台</title>
+    </head>
+    <body>
+        <%= require('html-loader!./layout/navi.html') %>
+        <%= require('html-loader!./layout/header.html') %>
+        <div class="crumb">
+            <div class="w">
+                <div class="crumb-con">
+                    <a class="link" href="./index.html">B2CMALL</a>
+                    <span>></span>
+                    <span class="link-text">个人中心</span>
+                </div>
+            </div>
+        </div>
+        <div class="page-wrap w">
+            <%= require('html-loader!./layout/side-navi.html') %>
+            <div class="content with-navi">
+                <div class="panel">
+                    <div class="panel-title">修改密码</div>
+                    <div class="panel-body">
+                        <div class="user-info">
+                        <div class="form-line">
+                            <span class="label">原密码：</span>
+                            <input class="input" type="password" id="password" autocomplete="off""/>
+                        </div>
+                        <div class="form-line">
+                            <span class="label">新密码：</span>
+                            <input type="password" class="input" id="passwordN" autocomplete="off" "/>
+                        </div>
+                        <div class="form-line">
+                            <span class="label">密码确认：</span>
+                            <input class="input" type="password" id="passwordN-confirm" autocomplete="off" />
+                        </div>
+                        <span class="btn btn-submit">提交</span>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <%= require('html-loader!./layout/footer.html') %>
+    </body>
+</html>

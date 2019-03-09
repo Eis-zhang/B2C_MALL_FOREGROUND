@@ -2,7 +2,7 @@
 * @Author: Eis
 * @Date:   2019-03-07 16:56:03
 * @Last Modified by:   Eis
-* @Last Modified time: 2019-03-07 20:50:05
+* @Last Modified time: 2019-03-09 18:44:47
 */
 'use strict'
 require('./index.css');
@@ -25,7 +25,7 @@ var navi = {
 		});
 		//注册点击事件
 		$('.js-register').click(function(){
-			window.location.href = './register.html';
+			window.location.href = './user-register.html';
 		});
 		//退出点击事件
 		$('.js-logout').click(function(){
@@ -40,7 +40,8 @@ var navi = {
 	//加载用户信息
 	loadUserInfo : function(){
 		_user.checkLogin(function(res){
-			$('.user.not-login').hide().siblings('.user.login').show().find('.username').text(res.username);
+			$('.user.not-login').hide().siblings('.user.login').show()
+                .find('.username').text(res.uUsername);
 		}, function(errmsg){
 			//无任何动作
 		});

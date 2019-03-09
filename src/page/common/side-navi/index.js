@@ -2,7 +2,7 @@
 * @Author: Eis
 * @Date:   2019-03-07 20:14:56
 * @Last Modified by:   Eis
-* @Last Modified time: 2019-03-07 21:16:34
+* @Last Modified time: 2019-03-09 22:19:54
 */
 'use strict';
 require('./index.css');
@@ -16,7 +16,7 @@ var sideNavi = {
 		navList : [
 			{name: 'user-center', desc: '个人中心', href: './user-center.html'},
 			{name: 'order-list', desc: '我的订单', href: './order-list.html'},
-			{name: 'pass-update', desc: '修改密码', href: './pass-update.html'},
+			{name: 'user-pass-update', desc: '修改密码', href: './user-pass-update.html'},
 			{name: 'about', desc: '关于此商城', href: './about.html'}
 		]
 	},

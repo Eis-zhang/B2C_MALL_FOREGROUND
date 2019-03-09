@@ -2,7 +2,7 @@
 * @Author: Eis
 * @Date:   2019-03-07 15:08:35
 * @Last Modified by:   Eis
-* @Last Modified time: 2019-03-07 15:52:46
+* @Last Modified time: 2019-03-09 18:34:17
 */
 /* css reset */
 *{
@@ -32,7 +32,27 @@ input[type='checkbox']{
 	width: 1080px;
 	margin: 0 auto;
 	position: relative;
-	overflow: hidder;
+	overflow: hidden;
+}
+
+/*panel*/
+.panel{
+	padding: 10px;
+	margin-bottom: 10px;
+	background: #fff;
+}
+.panel .panel-title{
+	padding: 10px;
+	font-size: 14px;
+	color: #666;
+	font-weight: bold;
+	border-bottom: 1px solid #eee;
+}
+
+.panel .panel-body{
+	padding: 10px;
+	overflow: hidden;
+	
 }
 
 /*全局通用样式*/
